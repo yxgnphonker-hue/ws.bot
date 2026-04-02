@@ -1,5 +1,5 @@
 # Código atualizado com comandos ácido e cancelaracido
-main_py = import discord
+import discord
 import os
 from discord.ext import commands
 import random
