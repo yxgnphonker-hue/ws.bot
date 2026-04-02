@@ -73,7 +73,7 @@ async def on_message(message):
         if frase_esperada not in conteudo:
             respostas = [
                 f"🐍 『{STAND_NAME}』: *{message.author.mention}, você não está seguindo o comando programado...*",
-                f"🐍 『{STAND_NAME}』: *Diga exatamente: \\"{usuarios_programados[message.author.id]}\\"*",
+                f"🐍 『{STAND_NAME}』: *Diga exatamente: "{usuarios_programados[message.author.id]}\\"*",
                 f"🐍 『{STAND_NAME}』: *Sua memória foi alterada. OBEY.*",
                 f"💿 O disco de memória de {message.author.name} está falhando... **REPITA O COMANDO!**"
             ]
